@@ -5,7 +5,7 @@ export default class Character {
     }
 
     if (name.length < 2 || name.length > 10) {
-      throw new Error('Ошибка! Имя слишком ороткое/длинное');
+      throw new Error('Ошибка! Имя слишком короткое/длинное');
     }
     if (!['Bowman', 'Swordsman', 'Magician', 'Daemon', 'Undead', 'Zombie',
     ].includes(type)) {
